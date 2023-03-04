@@ -1,0 +1,11 @@
+archive.zip
+__pycache__/model.cpython-310.pyc
+__pycache__/train.cpython-310.pyc
+__pycache__/preprocess.cpython-310.pyc
+__pycache__/transform.cpython-39.pyc
+__pycache__/transform.cpython-310.pyc
+train.zip
+test.zip
+sample_submission.csv
+data/test
+data/train
