@@ -15,7 +15,7 @@ KAGGLE: [Dogs vs. Cats Redux: Kernels Edition](https://www.kaggle.com/competitio
 The train folder contains 25,000 images of dogs and cats.  
 The test folder contains 12,500 images of dogs and cats - non classify.
 ## Let's start!
-### Preprocess data:
+### Preprocessing data:
 ```
 preprocess.py
 ```
@@ -24,7 +24,7 @@ Before training, create a folder name **weights** to save model.
 ```
 train.py
 ```
-### And predicts:
+### And predicting:
 ```
 predict.py
 ```
