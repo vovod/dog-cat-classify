@@ -40,7 +40,7 @@ with torch.no_grad():
         preds_list = F.softmax(preds, dim=1)[:, 1].tolist()
         dog_probs += list(zip(list(fileid), preds_list))
 
-for img, probs in zip(test_file[:10], dog_probs[:10]):
+for img, probs in zip(test_file[:5], dog_probs[:5]):
     pil_im = Image.open(img, 'r')
     label = "dog" if probs[1] > 0.5 else "cat"
     title = "prob of dog: " + str(probs[1]) + " Classified as: " + label
