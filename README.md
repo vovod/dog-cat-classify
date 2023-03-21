@@ -1,8 +1,8 @@
 # DOG vs CAT classify
 **My project to classify cat and dog using pytorch!**  
   
-![DOG](https://i.ibb.co/2h8M1p8/Figure-2.png)
-![CAT](https://i.ibb.co/SJ1C3rK/Figure-1.png)
+![DOG](/Figure_2.png)
+![CAT](/Figure_1.png)
 ## Requirements
 CUDA, conda installed.
 ```
